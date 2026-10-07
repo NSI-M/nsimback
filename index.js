@@ -1,30 +1,3 @@
-// back/index.js
-//require('dotenv').config({ path: '.env.dev' })      // ← .env を読み込む
-//const express = require('express')
-//const cors    = require('cors')
-//const sqlite3 = require('sqlite3').verbose()
-//const bcrypt  = require('bcrypt')
-
-//const jwt     = require('jsonwebtoken')
-//const cookieParser = require('cookie-parser')
-//const app = express()
-//const port = process.env.PORT || 5000
-//app.use(cookieParser())
-//app.set('trust proxy', 1) // HTTPS behind proxy
-
-// CORS 設定
-//app.use(cors({
-//  origin: process.env.FRONTEND_ORIGIN,
-//  credentials: true
-//}))
-//app.use(express.json())
-
-// DB 接続
-//const dbPath = process.env.DB_PATH
-//const db = new sqlite3.Database(dbPath, err => {
-//  if (err) console.error(err.message)
-//  else    console.log(`Connected to SQLite at ${dbPath}`)
-//})
 
 require('dotenv').config({ path: '.env.dev' }) // ← .env を読み込む
 const express = require('express')
